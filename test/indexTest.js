@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require ( './helpers.js' );
 
 const fs = require("fs");
@@ -50,5 +51,20 @@ describe("css/style.css", () => {
     const rule = findRule(css.cssRules, "#tasks .completed");
     const hint = "Incorrect background property for '#tasks .completed'";
     expect(rule.style["background"], hint).to.eq("#ccc");
+=======
+const { expect } = require("chai");
+const fs = require("fs");
+const path = require("path");
+
+describe("index.html", () => {
+  it("should be present", () => {
+    const fileExists = fs.existsSync(
+      path.resolve(__dirname, "..", "index.html")
+    );
+    const errorHint =
+      "Make sure you have a file called 'index.html' in the lab directory with your HTML document in it!";
+
+    expect(fileExists, errorHint).to.be.true;
+>>>>>>> 069cb8df3f31c18b0e39033d5c5f5276dd4c8d71
   });
 });

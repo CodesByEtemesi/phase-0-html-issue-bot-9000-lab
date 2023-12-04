@@ -1,7 +1,14 @@
 languages:
   - html
+<<<<<<< HEAD
   - css
 tags:
   - validation
   - errors
+=======
+tags:
+  - validation
+  - errors
+  - no solution
+>>>>>>> 069cb8df3f31c18b0e39033d5c5f5276dd4c8d71
 resources: 1

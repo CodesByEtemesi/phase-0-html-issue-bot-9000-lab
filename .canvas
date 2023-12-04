@@ -1,6 +1,12 @@
 ---
 :lessons:
+<<<<<<< HEAD
 - :id: 218924
   :course_id: 6602
   :canvas_url: https://learning.flatironschool.com/courses/6602/assignments/218924
+=======
+- :id: 218930
+  :course_id: 6602
+  :canvas_url: https://learning.flatironschool.com/courses/6602/assignments/218930
+>>>>>>> 069cb8df3f31c18b0e39033d5c5f5276dd4c8d71
   :type: assignment
